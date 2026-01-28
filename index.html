@@ -4,67 +4,145 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HyperGameMarketMn</title>
-  <meta name="description" content="PUBG MLBB account түрээс, худалдаа, midman үйлчилгээ">
+
   <style>
-    body{margin:0;font-family:Arial,sans-serif;background:#0b1220;color:#fff;}
-    header{text-align:center;padding:50px 20px;
-      background:linear-gradient(135deg,#7c3aed,#2563eb);}
-    .btn{display:inline-block;padding:10px 18px;
-      background:#22c55e;color:#000;border-radius:10px;
-      text-decoration:none;font-weight:bold;}
-    section{padding:40px 20px;}
-    h2{text-align:center;}
-    .grid{display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:20px;max-width:1100px;margin:auto;}
-    .card{background:#111827;border-radius:16px;overflow:hidden;
-      box-shadow:0 10px 25px rgba(0,0,0,0.3);}
-    .card img{width:100%;height:180px;object-fit:cover;}
-    .card div{padding:15px;text-align:center;}
-    footer{text-align:center;padding:20px;font-size:14px;opacity:.6;}
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    /* ===== BANNER ===== */
+    .banner {
+      background-image: url("chat.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
+
+    .overlay {
+      background: rgba(0,0,0,0.75);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .overlay h1 {
+      font-size: 36px;
+      color: #00ffff;
+      text-shadow: 0 0 15px #00ffff;
+      margin-bottom: 10px;
+    }
+
+    .overlay p {
+      font-size: 16px;
+      opacity: 0.9;
+      margin-bottom: 25px;
+    }
+
+    /* ===== BUTTONS ===== */
+    .buttons {
+      width: 100%;
+      max-width: 420px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-decoration: none;
+      color: white;
+      padding: 15px;
+      margin: 12px 0;
+      border-radius: 14px;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 0 15px rgba(0,255,255,0.3);
+      transition: transform 0.2s;
+    }
+
+    .btn:hover {
+      transform: scale(1.03);
+    }
+
+    .mlbb { background: linear-gradient(135deg, #396afc, #2948ff); }
+    .pubg { background: linear-gradient(135deg, #f7971e, #ffd200); }
+    .page { background: linear-gradient(135deg, #00c6ff, #0072ff); }
+    .admin{ background: linear-gradient(135deg, #ff416c, #ff4b2b); }
+
+    .btn img {
+      width: 26px;
+      height: 26px;
+      border-radius: 6px;
+    }
+
+    /* ===== FOOTER NOTE ===== */
+    .note {
+      margin-top: 25px;
+      font-size: 13px;
+      opacity: 0.8;
+    }
+
+    /* ===== MOBILE ===== */
+    @media (max-width: 600px) {
+      .overlay h1 { font-size: 30px; }
+      .btn { font-size: 16px; }
+    }
   </style>
 </head>
+
 <body>
 
-<header>
-  <h1>🎮 Hyper Game Market</h1>
-  <p>PUBG • MLBB • Account Rental • Midman</p>
-</header>
+  <!-- ===== HERO / BANNER ===== -->
+  <section class="banner">
+    <div class="overlay">
+      <h1>HYPER ACCOUNT SHOP 🇲🇳🕹️</h1>
+      <p>
+        MLBB • PUBG Account түрээс<br>
+        Account худалдаа • Midman үйлчилгээ
+      </p>
 
-<section>
-  <h2>🔥 Манай Game Market</h2>
-  <div class="grid">
+      <!-- ===== LINKS ===== -->
+      <div class="buttons">
 
-    <div class="card"^
-      <div>
-        <h3>💬 Messenger Group</h3>
-        <p>HYPER ACCOUNT SHOP 🇲🇳🕹️</p>
-        <a class="btn" href="#">Join Chat</a>
+        <a class="btn mlbb"
+           href="https://www.facebook.com/groups/1763168017377572/?ref=share&mibextid=NSMWBT"
+           target="_blank">
+          <img src="mlbb.jpg"> MLBB Group
+        </a>
+
+        <a class="btn pubg"
+           href="https://www.facebook.com/groups/3405149073101437/?ref=share&mibextid=NSMWBT"
+           target="_blank">
+          <img src="pubg.jpg"> PUBG Group
+        </a>
+
+        <a class="btn page"
+           href="https://www.facebook.com/share/1GdZxwoTeP/"
+           target="_blank">
+          💬 Facebook Page
+        </a>
+
+        <a class="btn admin"
+           href="https://www.facebook.com/share/17m8cn1xb6/"
+           target="_blank">
+          🛡️ Admin / Midman
+        </a>
+
+      </div>
+
+      <div class="note">
+        ⚠️ Fake account-аас болгоомжилно уу.<br>
+        Зөвхөн албан ёсны Page & Admin-тай холбогдоорой.
       </div>
     </div>
-
-    <div class="card">
-      <div>
-        <h3>🎯 PUBG Group</h3>
-        <p>Account түрээс • худалдаа</p>
-        <a class="btn" href="#">Join PUBG</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div>
-        <h3>💎 MLBB Group</h3>
-        <p>Account • Diamond • Midman</p>
-        <a class="btn" href="#">Join MLBB</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<footer>
-  © 2026 HyperGameMarketMn
-</footer>
+  </section>
 
 </body>
 </html>
